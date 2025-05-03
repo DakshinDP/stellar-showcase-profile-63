@@ -11,6 +11,7 @@ const skillsData = {
     { name: "JavaScript", level: "advanced" as const, proficiency: 85 },
     { name: "TypeScript", level: "intermediate" as const, proficiency: 75 },
     { name: "Java", level: "advanced" as const, proficiency: 80 },
+    { name: "C", level: "advanced" as const, proficiency: 90 },
     { name: "C++", level: "intermediate" as const, proficiency: 70 },
     { name: "SQL", level: "advanced" as const, proficiency: 85 },
   ],
@@ -79,7 +80,7 @@ const SkillSection = ({ title, skills }: SkillSectionProps) => (
 
 const Skills = () => {
   useEffect(() => {
-    document.title = "Skills | Your Name";
+    document.title = "Skills | Dakshina Prasath M";
   }, []);
 
   return (
@@ -135,8 +136,9 @@ const Skills = () => {
                   <h4 className="text-lg font-semibold mb-3">Languages</h4>
                   <ul className="list-disc list-inside text-gray-700 space-y-2">
                     <li>English (Fluent)</li>
-                    <li>Hindi (Native)</li>
-                    <li>Tamil (Fluent)</li>
+                    <li>Tamil (Native)</li>
+                    <li>Telugu (Fluent)</li>
+                    <li>Hindi (Fluent)</li>
                     {/* Add more as needed */}
                   </ul>
                 </div>

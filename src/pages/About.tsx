@@ -7,7 +7,7 @@ import Footer from "@/components/Footer";
 
 const About = () => {
   useEffect(() => {
-    document.title = "About | Your Name";
+    document.title = "About | Dakshina Prasath M";
   }, []);
 
   return (
@@ -31,8 +31,8 @@ const About = () => {
                   <div className="absolute -inset-0.5 bg-gradient-to-r from-portfolio-primary to-portfolio-accent rounded-lg blur opacity-30"></div>
                   <div className="relative bg-white rounded-lg p-2 shadow-xl">
                     <img 
-                      src="/public/placeholder.svg" 
-                      alt="Your Name" 
+                      src="public\IMG_42461.JPG" 
+                      alt="dp" 
                       className="w-full h-auto rounded-lg object-cover"
                     />
                   </div>
@@ -40,7 +40,7 @@ const About = () => {
               </div>
               
               <div className="lg:w-2/3">
-                <h2 className="text-3xl font-bold text-portfolio-secondary mb-4">Your Name</h2>
+                <h2 className="text-3xl font-bold text-portfolio-secondary mb-4">Dakshina Prasath M</h2>
                 <p className="text-xl text-gray-600 mb-6">Software Developer & Machine Learning Engineer</p>
                 
                 <div className="prose max-w-none text-gray-700">
@@ -57,14 +57,14 @@ const About = () => {
                   </p>
                   
                   <p>
-                    When I'm not coding, I enjoy [Your Hobbies/Interests] and am always looking to expand my knowledge through 
+                    When I'm not coding, I enjoy playing Basketball and am always looking to expand my knowledge through 
                     online courses, technical books, and participating in hackathons and tech communities.
                   </p>
                 </div>
                 
                 <div className="mt-8 flex flex-wrap gap-4">
                   <Button asChild variant="outline">
-                    <a href="/path-to-resume.pdf" target="_blank" rel="noopener noreferrer">
+                    <a href="public\Dakshina_Prasath_Resume.pdf" target="_blank" rel="noopener noreferrer">
                       Download Resume
                     </a>
                   </Button>

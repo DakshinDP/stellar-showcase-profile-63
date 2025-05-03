@@ -21,7 +21,7 @@ const Contact = () => {
   const [isSubmitting, setIsSubmitting] = useState(false);
   
   useEffect(() => {
-    document.title = "Contact | Your Name";
+    document.title = "Contact | Dakshina Prasath M";
   }, []);
   
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
@@ -102,7 +102,7 @@ const Contact = () => {
                       type="email"
                       value={formData.email}
                       onChange={handleChange}
-                      placeholder="your.email@example.com"
+                      placeholder="example@gmail.com"
                       required
                     />
                   </div>
@@ -167,7 +167,7 @@ const Contact = () => {
                         <h3 className="font-semibold text-lg text-portfolio-secondary">Email</h3>
                         <p className="text-gray-700 mb-1">Feel free to email me directly</p>
                         <a href="mailto:your.email@example.com" className="text-portfolio-primary hover:text-portfolio-accent transition-colors">
-                          your.email@example.com
+                          hamsadakshin5@gmail.com
                         </a>
                       </div>
                     </CardContent>
@@ -183,7 +183,7 @@ const Contact = () => {
                         <p className="text-gray-700 mb-3">Connect with me on professional networks</p>
                         <div className="space-y-2">
                           <a 
-                            href="https://linkedin.com/in/yourprofile" 
+                            href="https://linkedin.com/in/dakshina-prasath" 
                             target="_blank" 
                             rel="noopener noreferrer"
                             className="block text-portfolio-primary hover:text-portfolio-accent transition-colors"
@@ -191,21 +191,14 @@ const Contact = () => {
                             LinkedIn
                           </a>
                           <a 
-                            href="https://github.com/yourusername" 
+                            href="https://github.com/DakshinDP" 
                             target="_blank" 
                             rel="noopener noreferrer"
                             className="block text-portfolio-primary hover:text-portfolio-accent transition-colors"
                           >
                             GitHub
                           </a>
-                          <a 
-                            href="https://twitter.com/yourusername" 
-                            target="_blank" 
-                            rel="noopener noreferrer"
-                            className="block text-portfolio-primary hover:text-portfolio-accent transition-colors"
-                          >
-                            Twitter
-                          </a>
+                          
                         </div>
                       </div>
                     </CardContent>
@@ -240,7 +233,7 @@ const Contact = () => {
               I'm currently available for freelance work and open to new opportunities.
             </p>
             <Button asChild size="lg" variant="secondary" className="bg-white text-portfolio-primary hover:bg-gray-100">
-              <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+              <a href="public\Dakshina_Prasath_Resume.pdf" target="_blank" rel="noopener noreferrer">
                 Download Resume
               </a>
             </Button>

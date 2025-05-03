@@ -40,15 +40,15 @@ const Footer = () => {
           <div className="space-y-4">
             <h3 className="text-xl font-bold">Contact</h3>
             <ul className="space-y-2">
-              <li className="text-gray-300">Email: your.email@example.com</li>
-              <li className="text-gray-300">LinkedIn: linkedin.com/in/yourprofile</li>
-              <li className="text-gray-300">GitHub: github.com/yourusername</li>
+              <li className="text-gray-300">Email: hamsadakshin5@gmail.com</li>
+              <li className="text-gray-300">LinkedIn: linkedin.com/in/dakshina-prasath</li>
+              <li className="text-gray-300">GitHub: github.com/DakshinDP</li>
             </ul>
           </div>
         </div>
         
         <div className="mt-8 pt-8 border-t border-gray-700 text-center text-gray-300">
-          <p>&copy; {currentYear} Your Name. All rights reserved.</p>
+          <p>&copy; {currentYear} Dakshina Prasath M. All rights reserved.</p>
         </div>
       </div>
     </footer>

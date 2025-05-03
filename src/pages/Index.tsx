@@ -16,7 +16,7 @@ const featuredProjects = [
     description: "A web-based platform connecting food donors with NGOs using real-time listings, Google Maps API, and JWT authentication.",
     technologies: ["React", "Node.js", "Express", "MongoDB", "Google Maps API"],
     status: "ongoing" as const,
-    github: "https://github.com/yourusername/share-a-bite"
+    github: "https://github.com/DakshinDP/share-bite-community.git"
   },
   {
     id: "costume-designer-ai",
@@ -48,7 +48,7 @@ const coreSkills = [
 
 const Index = () => {
   useEffect(() => {
-    document.title = "Your Name | Software Developer & ML Engineer";
+    document.title = "Dakshina Prasath M | Software Developer & ML Engineer";
   }, []);
 
   return (
@@ -129,7 +129,7 @@ const Index = () => {
               <Card className="bg-blue-50">
                 <CardContent className="p-6">
                   <h3 className="font-bold text-xl mb-2 text-portfolio-secondary">Languages</h3>
-                  <p className="text-gray-700">Python, JavaScript, TypeScript, Java, C++, SQL</p>
+                  <p className="text-gray-700">Python, JavaScript, TypeScript, Java, C/C++, SQL</p>
                 </CardContent>
               </Card>
               

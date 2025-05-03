@@ -11,7 +11,8 @@ const allProjects: ProjectCardProps[] = [
     description: "A web-based platform to connect food donors with NGOs using real-time listings. Integrated Google Maps API for location-based food pickup coordination and implemented JWT authentication with role-based dashboards for donors, volunteers, and NGOs.",
     technologies: ["React", "Node.js", "Express", "MongoDB", "Google Maps API", "JWT"],
     status: "ongoing",
-    github: "https://github.com/yourusername/share-a-bite"
+    github: "https://github.com/DakshinDP/share-bite-community.git",
+    demo: "https://share-a-bite-community.vercel.app/"
   },
   {
     id: "costume-designer-ai",
@@ -36,7 +37,7 @@ const allProjects: ProjectCardProps[] = [
     description: "Designed and developed a news application using Java and JDBC with MySQL database integration. Implemented features like keyword search, news saving, and user authentication. Enhanced UI/UX with optimized scrolling, loading animations, and professional button designs.",
     technologies: ["Java", "JDBC", "MySQL", "UI/UX Design"],
     status: "completed",
-    github: "https://github.com/yourusername/news-app"
+    github: "https://github.com/DakshinDP/DP_NEWS.git"
   },
   {
     id: "market-mix-analysis",
@@ -44,7 +45,7 @@ const allProjects: ProjectCardProps[] = [
     description: "Developed predictive models for Market Mix Analysis using advanced regression techniques. Analyzed sales data trends to optimize marketing strategies and implemented data visualization using Python and Matplotlib to present insights effectively.",
     technologies: ["Python", "Data Analysis", "Regression Models", "Matplotlib"],
     status: "completed",
-    github: "https://github.com/yourusername/market-mix-analysis",
+    github: "https://github.com/trapti19singhal/Market_Mix_Models_Infosys_Internship_Oct2024.git",
     demo: "https://market-mix-demo.example.com"
   },
   {
@@ -107,7 +108,7 @@ const Projects = () => {
                 </ul>
                 <div className="mt-6">
                   <a 
-                    href="https://github.com/yourusername" 
+                    href="https://github.com/DakshinDP" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="text-portfolio-primary hover:text-portfolio-accent underline"
