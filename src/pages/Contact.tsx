@@ -233,8 +233,8 @@ const Contact = () => {
               I'm currently available for freelance work and open to new opportunities.
             </p>
             <Button asChild size="lg" variant="secondary" className="bg-white text-portfolio-primary hover:bg-gray-100">
-              <a href="public\Dakshina_Prasath_Resume.pdf" target="_blank" rel="noopener noreferrer">
-                Download Resume
+              <a href="/Dakshina_Prasath_Resume.pdf" download="Dakshina_Prasath_Resume.pdf" target="_blank" rel="noopener noreferrer">
+                Download Dakshina Prasath's CV
               </a>
             </Button>
           </div>

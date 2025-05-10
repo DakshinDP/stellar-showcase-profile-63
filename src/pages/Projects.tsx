@@ -1,3 +1,4 @@
+
 import { useEffect } from "react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
@@ -53,6 +54,42 @@ const allProjects: ProjectCardProps[] = [
     technologies: ["Python", "TensorFlow", "Scikit-Learn", "Healthcare"],
     status: "ongoing",
     github: "https://github.com/DakshinDP/anesthesia-ml-prediction"
+  },
+  {
+    id: "guess-mate",
+    title: "Guess Mate",
+    description: "An interactive word guessing game inspired by Wordle. Features daily challenges, custom game modes, and a sleek user interface. Built with responsive design for optimal gameplay on any device.",
+    technologies: ["React", "JavaScript", "CSS", "HTML"],
+    status: "completed",
+    github: "https://github.com/DakshinDP/guess-mate",
+    demo: "https://guess-mate-chi.vercel.app/"
+  },
+  {
+    id: "binary-calculator",
+    title: "Binary Calculator",
+    description: "A comprehensive calculator tool that supports binary, decimal, hexadecimal, and octal conversions. Features a clean interface with instant calculation results and copy functionality.",
+    technologies: ["JavaScript", "HTML", "CSS"],
+    status: "completed",
+    github: "https://github.com/DakshinDP/binary-calculator",
+    demo: "https://10calculator.vercel.app/"
+  },
+  {
+    id: "typzzz",
+    title: "Typzzz - Typing Speed Calculator",
+    description: "A modern typing test application that measures typing speed, accuracy, and provides detailed performance analytics. Includes various text difficulty levels and timed tests.",
+    technologies: ["React", "TypeScript", "CSS"],
+    status: "completed",
+    github: "https://github.com/DakshinDP/typzzz",
+    demo: "https://typzzz.vercel.app/"
+  },
+  {
+    id: "plagiometer",
+    title: "Plagiometer - Plagiarism Detector",
+    description: "An advanced tool for detecting plagiarism in academic and professional writing. Utilizes NLP algorithms to compare text similarity and generates detailed reports with percentage matches.",
+    technologies: ["Python", "NLP", "React", "Flask"],
+    status: "completed",
+    github: "https://github.com/DakshinDP/plagiometer",
+    demo: "https://plagiometer.vercel.app/"
   }
 ];
 
