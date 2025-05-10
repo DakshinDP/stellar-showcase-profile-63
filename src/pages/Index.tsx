@@ -15,17 +15,17 @@ const featuredProjects = [
     title: "Share a Bite - Food Donation Platform",
     description: "A web-based platform connecting food donors with NGOs using real-time listings, Google Maps API, and JWT authentication.",
     technologies: ["React", "Node.js", "Express", "MongoDB", "Google Maps API"],
-    status: "ongoing" as const,
-    github: "https://github.com/DakshinDP/share-bite-community.git"
+    status: "completed" as const,
+    github: "https://github.com/DakshinDP/share-bite-community.git",
+    demo: "https://share-a-bite-community.vercel.app/"
   },
   {
     id: "costume-designer-ai",
     title: "Costume Designer AI",
     description: "An AI model using Diffusion Models/VAEs to create custom costume designs based on user inputs, achieving 85% user satisfaction.",
     technologies: ["Python", "PyTorch", "Flask", "React"],
-    status: "completed" as const,
-    github: "https://github.com/yourusername/costume-designer-ai",
-    demo: "https://costume-ai-demo.example.com"
+    status: "ongoing" as const,
+    github: "https://github.com/DakshinDP/costume-designer-ai"
   },
   {
     id: "robot-teacher",
@@ -33,7 +33,7 @@ const featuredProjects = [
     description: "Working on a physical robot designed for educational purposes, integrating AI and ML models for personalized learning.",
     technologies: ["Python", "TensorFlow", "Robotics", "Education Tech"],
     status: "ongoing" as const,
-    github: "https://github.com/yourusername/robot-teacher"
+    github: "https://github.com/DakshinDP/robot-teacher"
   }
 ];
 

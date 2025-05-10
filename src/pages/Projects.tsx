@@ -10,7 +10,7 @@ const allProjects: ProjectCardProps[] = [
     title: "Share a Bite - Food Donation Platform",
     description: "A web-based platform to connect food donors with NGOs using real-time listings. Integrated Google Maps API for location-based food pickup coordination and implemented JWT authentication with role-based dashboards for donors, volunteers, and NGOs.",
     technologies: ["React", "Node.js", "Express", "MongoDB", "Google Maps API", "JWT"],
-    status: "ongoing",
+    status: "completed",
     github: "https://github.com/DakshinDP/share-bite-community.git",
     demo: "https://share-a-bite-community.vercel.app/"
   },
@@ -19,9 +19,8 @@ const allProjects: ProjectCardProps[] = [
     title: "Costume Designer AI (Generative AI)",
     description: "Developed a generative AI model using Diffusion Models/VAEs to create custom costume designs from user inputs (era/theme/fabric). Trained on 50k+ historical costume images (PyTorch), achieving 85% user satisfaction in tests. Integrated CLIP for text-to-image alignment and deployed as a Flask+React web app.",
     technologies: ["Python", "PyTorch", "TensorFlow", "Flask", "React", "CLIP", "Diffusion Models"],
-    status: "completed",
-    github: "https://github.com/yourusername/costume-designer-ai",
-    demo: "https://costume-ai-demo.example.com"
+    status: "ongoing",
+    github: "https://github.com/DakshinDP/costume-designer-ai",
   },
   {
     id: "robot-teacher",
@@ -29,7 +28,7 @@ const allProjects: ProjectCardProps[] = [
     description: "Working on a physical robot designed for educational purposes. Integrating AI and ML models for personalized learning assistance and creating interactive features for engaging student-teacher interactions.",
     technologies: ["Python", "TensorFlow", "Robotics", "Education Tech", "Embedded Systems"],
     status: "ongoing",
-    github: "https://github.com/yourusername/robot-teacher"
+    github: "https://github.com/DakshinDP/robot-teacher"
   },
   {
     id: "news-app",
@@ -46,7 +45,6 @@ const allProjects: ProjectCardProps[] = [
     technologies: ["Python", "Data Analysis", "Regression Models", "Matplotlib"],
     status: "completed",
     github: "https://github.com/trapti19singhal/Market_Mix_Models_Infosys_Internship_Oct2024.git",
-    demo: "https://market-mix-demo.example.com"
   },
   {
     id: "anesthesia-ml",
@@ -54,7 +52,7 @@ const allProjects: ProjectCardProps[] = [
     description: "A machine learning project focusing on predicting optimal anesthesia dosages based on patient data. Leveraging neural networks and regression models to improve accuracy and patient safety in anesthesia administration.",
     technologies: ["Python", "TensorFlow", "Scikit-Learn", "Healthcare"],
     status: "ongoing",
-    github: "https://github.com/yourusername/anesthesia-ml-prediction"
+    github: "https://github.com/DakshinDP/anesthesia-ml-prediction"
   }
 ];
 

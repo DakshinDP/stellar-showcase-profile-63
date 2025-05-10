@@ -1,4 +1,3 @@
-
 import { useEffect, useState } from "react";
 import { useParams, Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
@@ -15,8 +14,9 @@ const projectsDatabase: Record<string, ProjectCardProps & { fullDescription?: st
     description: "A web-based platform to connect food donors with NGOs using real-time listings.",
     fullDescription: "Share a Bite is a comprehensive food donation platform designed to address food waste and hunger by connecting donors with NGOs. The platform features real-time food listings, location-based pickup coordination using Google Maps API, and role-based dashboards for different user types including donors, volunteers, and NGO representatives.",
     technologies: ["React", "Node.js", "Express", "MongoDB", "Google Maps API", "JWT"],
-    status: "ongoing",
-    github: "https://github.com/yourusername/share-a-bite",
+    status: "completed",
+    github: "https://github.com/DakshinDP/share-bite-community.git",
+    demo: "https://share-a-bite-community.vercel.app/",
     features: [
       "Real-time food donation listings with expiration tracking",
       "Location-based food pickup coordination using Google Maps API",
@@ -37,9 +37,8 @@ const projectsDatabase: Record<string, ProjectCardProps & { fullDescription?: st
     description: "An AI model using Diffusion Models/VAEs to create custom costume designs from user inputs.",
     fullDescription: "Costume Designer AI is a generative AI application that creates custom costume designs based on user inputs like era, theme, and fabric preferences. The system uses advanced diffusion models and VAEs trained on over 50,000 historical costume images, and achieved an 85% user satisfaction rating in testing. The application includes text-to-image alignment through CLIP and is deployed as a full-stack web application.",
     technologies: ["Python", "PyTorch", "TensorFlow", "Flask", "React", "CLIP", "Diffusion Models"],
-    status: "completed",
-    github: "https://github.com/yourusername/costume-designer-ai",
-    demo: "https://costume-ai-demo.example.com",
+    status: "ongoing",
+    github: "https://github.com/DakshinDP/costume-designer-ai",
     features: [
       "Custom costume design generation from text descriptions",
       "Era/theme/fabric input options for design customization",
@@ -61,7 +60,7 @@ const projectsDatabase: Record<string, ProjectCardProps & { fullDescription?: st
     fullDescription: "Robot Teacher is an ongoing project focused on developing a physical robot for educational environments. The robot integrates AI and ML models to provide personalized learning assistance, create interactive lessons, and engage students in meaningful educational interactions. The project combines robotics, education technology, and artificial intelligence to push the boundaries of educational tools.",
     technologies: ["Python", "TensorFlow", "Robotics", "Education Tech", "Embedded Systems"],
     status: "ongoing",
-    github: "https://github.com/yourusername/robot-teacher",
+    github: "https://github.com/DakshinDP/robot-teacher",
     features: [
       "Interactive features for engaging student-teacher interactions",
       "AI and ML models for personalized learning assistance",
@@ -82,7 +81,7 @@ const projectsDatabase: Record<string, ProjectCardProps & { fullDescription?: st
     fullDescription: "This News Application is a desktop software solution built using Java with JDBC for MySQL database integration. The application provides users with up-to-date news content with search functionality, personalization through saved articles, and a robust authentication system. Special attention was paid to UI/UX design with smooth scrolling, loading animations, and professional button designs.",
     technologies: ["Java", "JDBC", "MySQL", "UI/UX Design"],
     status: "completed",
-    github: "https://github.com/yourusername/news-app",
+    github: "https://github.com/DakshinDP/DP_NEWS.git",
     features: [
       "Keyword search for news articles",
       "User authentication system",
@@ -104,8 +103,7 @@ const projectsDatabase: Record<string, ProjectCardProps & { fullDescription?: st
     fullDescription: "The Market Mix Analysis project involved developing predictive models for marketing strategy optimization using advanced regression techniques. The project analyzed sales data trends to identify the most effective marketing channels and tactics, implemented data visualization tools to present insights clearly, and provided actionable recommendations for marketing budget allocation.",
     technologies: ["Python", "Data Analysis", "Regression Models", "Matplotlib"],
     status: "completed",
-    github: "https://github.com/yourusername/market-mix-analysis",
-    demo: "https://market-mix-demo.example.com",
+    github: "https://github.com/trapti19singhal/Market_Mix_Models_Infosys_Internship_Oct2024.git",
     features: [
       "Advanced regression models for marketing channel effectiveness analysis",
       "Sales data trend identification and pattern recognition",
@@ -126,7 +124,7 @@ const projectsDatabase: Record<string, ProjectCardProps & { fullDescription?: st
     fullDescription: "The Anesthesia ML Prediction project focuses on developing machine learning models to predict optimal anesthesia dosages for patients undergoing surgery. By analyzing patient data including demographics, medical history, and physiological metrics, the system aims to improve patient safety and outcomes through more precise anesthesia administration. The project uses neural networks and regression models to continuously improve prediction accuracy.",
     technologies: ["Python", "TensorFlow", "Scikit-Learn", "Healthcare"],
     status: "ongoing",
-    github: "https://github.com/yourusername/anesthesia-ml-prediction",
+    github: "https://github.com/DakshinDP/anesthesia-ml-prediction",
     features: [
       "Patient-specific anesthesia dosage prediction",
       "Multiple machine learning models including neural networks",

@@ -31,8 +31,8 @@ const About = () => {
                   <div className="absolute -inset-0.5 bg-gradient-to-r from-portfolio-primary to-portfolio-accent rounded-lg blur opacity-30"></div>
                   <div className="relative bg-white rounded-lg p-2 shadow-xl">
                     <img 
-                      src="public\IMG_42461.JPG" 
-                      alt="dp" 
+                      src="/IMG_42461.JPG" 
+                      alt="Dakshina Prasath M" 
                       className="w-full h-auto rounded-lg object-cover"
                     />
                   </div>
@@ -64,7 +64,7 @@ const About = () => {
                 
                 <div className="mt-8 flex flex-wrap gap-4">
                   <Button asChild variant="outline">
-                    <a href="public\Dakshina_Prasath_Resume.pdf" target="_blank" rel="noopener noreferrer">
+                    <a href="/Dakshina_Prasath_Resume.pdf" target="_blank" rel="noopener noreferrer">
                       Download Resume
                     </a>
                   </Button>
