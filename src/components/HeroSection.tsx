@@ -33,11 +33,10 @@ const HeroSection = () => {
             <div className="absolute -inset-0.5 bg-gradient-to-r from-portfolio-primary to-portfolio-accent rounded-full blur opacity-20"></div>
             <div className="relative bg-white rounded-full p-2 shadow-xl">
               <img 
-                src="public\IMG_42461.JPG" 
-                alt="Your Name" 
+                src="/IMG_42461.JPG" 
+                alt="Dakshina Prasath M" 
                 className="w-full h-full rounded-full object-cover aspect-square"
               />
-              {/* Add a note for replacing placeholder later */}
               <div className="absolute bottom-4 right-4 bg-white/80 backdrop-blur-sm rounded-full px-3 py-1 text-xs font-medium text-portfolio-secondary shadow-lg">
               </div>
             </div>
