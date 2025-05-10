@@ -58,37 +58,37 @@ const allProjects: ProjectCardProps[] = [
   {
     id: "guess-mate",
     title: "Guess Mate",
-    description: "An interactive word guessing game inspired by Wordle. Features daily challenges, custom game modes, and a sleek user interface. Built with responsive design for optimal gameplay on any device.",
-    technologies: ["React", "JavaScript", "CSS", "HTML"],
+    description: "An interactive word guessing game inspired by Wordle with an enhanced user experience. Features daily challenges, custom difficulty levels, and a sleek, responsive UI. Includes a hint system, scoring mechanism, and word statistics to help players improve their vocabulary and guessing skills.",
+    technologies: ["React", "JavaScript", "CSS", "HTML", "LocalStorage"],
     status: "completed",
-    github: "https://github.com/DakshinDP/guess-mate",
+    github: "https://github.com/DakshinDP/guess-who-genius-mind",
     demo: "https://guess-mate-chi.vercel.app/"
   },
   {
     id: "binary-calculator",
     title: "Binary Calculator",
-    description: "A comprehensive calculator tool that supports binary, decimal, hexadecimal, and octal conversions. Features a clean interface with instant calculation results and copy functionality.",
-    technologies: ["JavaScript", "HTML", "CSS"],
+    description: "A comprehensive calculator tool that supports binary, decimal, hexadecimal, and octal conversions. Features a clean interface with instant calculation results and copy functionality. Includes bitwise operations, 2's complement representation, and educational tooltips to help users understand number system conversions.",
+    technologies: ["JavaScript", "HTML", "CSS", "Math.js"],
     status: "completed",
-    github: "https://github.com/DakshinDP/binary-calculator",
+    github: "https://github.com/DakshinDP/Binary-Calculator",
     demo: "https://10calculator.vercel.app/"
   },
   {
     id: "typzzz",
     title: "Typzzz - Typing Speed Calculator",
-    description: "A modern typing test application that measures typing speed, accuracy, and provides detailed performance analytics. Includes various text difficulty levels and timed tests.",
-    technologies: ["React", "TypeScript", "CSS"],
+    description: "A modern typing test application that measures typing speed (WPM), accuracy, and provides detailed performance analytics. Features multiple difficulty modes, customizable test durations, and interactive statistics graphs. Tracks user progress over time and offers personalized suggestions to improve typing efficiency.",
+    technologies: ["React", "TypeScript", "CSS", "Chart.js", "LocalStorage"],
     status: "completed",
-    github: "https://github.com/DakshinDP/typzzz",
+    github: "https://github.com/DakshinDP/Typing-Speed-Calculator",
     demo: "https://typzzz.vercel.app/"
   },
   {
     id: "plagiometer",
     title: "Plagiometer - Plagiarism Detector",
-    description: "An advanced tool for detecting plagiarism in academic and professional writing. Utilizes NLP algorithms to compare text similarity and generates detailed reports with percentage matches.",
-    technologies: ["Python", "NLP", "React", "Flask"],
+    description: "An advanced tool for detecting plagiarism in academic and professional writing. Utilizes NLP algorithms and cosine similarity to compare text documents. Features include document comparison, percentage match calculation, highlighted similarity sections, and exportable detailed reports for educational institutions and content creators.",
+    technologies: ["Python", "NLP", "React", "Flask", "NLTK", "scikit-learn"],
     status: "completed",
-    github: "https://github.com/DakshinDP/plagiometer",
+    github: "https://github.com/DakshinDP/PlagioMeter_Plagiarism-Detector",
     demo: "https://plagiometer.vercel.app/"
   }
 ];
