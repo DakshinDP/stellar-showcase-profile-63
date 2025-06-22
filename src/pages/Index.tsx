@@ -20,48 +20,20 @@ const featuredProjects = [
     demo: "https://share-a-bite-community.vercel.app/"
   },
   {
-    id: "guess-mate",
-    title: "Guess Mate - Number Guessing Game",
-    description: "An interactive number guessing game built with React featuring multiple difficulty levels, score tracking, and responsive design.",
-    technologies: ["React", "JavaScript", "CSS3", "HTML5"],
-    status: "completed" as const,
-    github: "https://github.com/DakshinDP/guess-who-genius-mind",
-    demo: "https://guess-mate-chi.vercel.app/"
-  },
-  {
-    id: "binary-calculator",
-    title: "Binary Calculator",
-    description: "A comprehensive binary calculator that performs arithmetic operations on binary numbers with real-time conversion and validation.",
-    technologies: ["HTML5", "CSS3", "JavaScript", "Binary Logic"],
-    status: "completed" as const,
-    github: "https://github.com/DakshinDP/Binary-Calculator",
-    demo: "https://10calculator.vercel.app/"
-  },
-  {
-    id: "typzzz",
-    title: "Typzzz - Typing Speed Calculator",
-    description: "A modern typing speed test application with real-time WPM calculation, accuracy tracking, and performance analytics.",
-    technologies: ["React", "JavaScript", "CSS3", "Performance Analytics"],
-    status: "completed" as const,
-    github: "https://github.com/DakshinDP/Typing-Speed-Calculator",
-    demo: "https://typzzz.vercel.app/"
-  },
-  {
-    id: "plagiometer",
-    title: "Plagiometer - Plagiarism Detector",
-    description: "An AI-powered plagiarism detection tool that analyzes text similarity and provides detailed reports with percentage matches.",
-    technologies: ["Python", "NLP", "Machine Learning", "Text Analysis"],
-    status: "completed" as const,
-    github: "https://github.com/DakshinDP/PlagioMeter_Plagiarism-Detector",
-    demo: "https://plagiometer.vercel.app/"
-  },
-  {
     id: "costume-designer-ai",
     title: "Costume Designer AI",
     description: "An AI model using Diffusion Models/VAEs to create custom costume designs based on user inputs, achieving 85% user satisfaction.",
     technologies: ["Python", "PyTorch", "Flask", "React"],
     status: "ongoing" as const,
     github: "https://github.com/DakshinDP/costume-designer-ai"
+  },
+  {
+    id: "robot-teacher",
+    title: "Robot Teacher Development",
+    description: "Working on a physical robot designed for educational purposes, integrating AI and ML models for personalized learning.",
+    technologies: ["Python", "TensorFlow", "Robotics", "Education Tech"],
+    status: "ongoing" as const,
+    github: "https://github.com/DakshinDP/robot-teacher"
   }
 ];
 
@@ -80,7 +52,7 @@ const Index = () => {
   }, []);
 
   return (
-    <div className="min-h-screen flex flex-col bg-background text-foreground transition-colors duration-300">
+    <div className="min-h-screen flex flex-col">
       <Navbar />
       
       <main className="flex-grow">
@@ -88,17 +60,17 @@ const Index = () => {
         <HeroSection />
         
         {/* About Section Preview */}
-        <section className="py-16 bg-background transition-colors duration-300">
+        <section className="py-16 bg-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-12">
-              <h2 className="text-3xl font-bold text-foreground mb-4 transition-colors duration-300">About Me</h2>
-              <p className="text-xl text-muted-foreground max-w-3xl mx-auto transition-colors duration-300">
+              <h2 className="text-3xl font-bold text-portfolio-secondary mb-4">About Me</h2>
+              <p className="text-xl text-gray-600 max-w-3xl mx-auto">
                 I'm a software developer and machine learning engineer passionate about creating impactful solutions.
               </p>
             </div>
             
-            <div className="bg-muted rounded-xl p-8 shadow-sm transition-colors duration-300">
-              <p className="text-muted-foreground mb-6 transition-colors duration-300">
+            <div className="bg-portfolio-muted rounded-xl p-8 shadow-sm">
+              <p className="text-gray-700 mb-6">
                 I specialize in developing AI-powered applications and data science solutions with expertise in machine learning and software development. 
                 My background in Computer Science coupled with hands-on experience in various projects has equipped me with the skills to tackle complex problems
                 and create innovative solutions.
@@ -114,17 +86,17 @@ const Index = () => {
         </section>
         
         {/* Featured Projects Section */}
-        <section className="py-16 bg-muted transition-colors duration-300">
+        <section className="py-16 bg-gray-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-12">
-              <h2 className="text-3xl font-bold text-foreground mb-4 transition-colors duration-300">Featured Projects</h2>
-              <p className="text-xl text-muted-foreground max-w-3xl mx-auto transition-colors duration-300">
+              <h2 className="text-3xl font-bold text-portfolio-secondary mb-4">Featured Projects</h2>
+              <p className="text-xl text-gray-600 max-w-3xl mx-auto">
                 Here are some of my recent projects that showcase my skills and expertise.
               </p>
             </div>
             
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-              {featuredProjects.slice(0, 3).map(project => (
+              {featuredProjects.map(project => (
                 <ProjectCard key={project.id} {...project} />
               ))}
             </div>
@@ -138,11 +110,11 @@ const Index = () => {
         </section>
         
         {/* Skills Preview Section */}
-        <section className="py-16 bg-background transition-colors duration-300">
+        <section className="py-16 bg-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-12">
-              <h2 className="text-3xl font-bold text-foreground mb-4 transition-colors duration-300">My Skills</h2>
-              <p className="text-xl text-muted-foreground max-w-3xl mx-auto transition-colors duration-300">
+              <h2 className="text-3xl font-bold text-portfolio-secondary mb-4">My Skills</h2>
+              <p className="text-xl text-gray-600 max-w-3xl mx-auto">
                 A glimpse of my technical expertise and core competencies.
               </p>
             </div>
@@ -154,24 +126,24 @@ const Index = () => {
             </div>
             
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-12">
-              <Card className="bg-blue-50 dark:bg-blue-950/20 transition-colors duration-300">
+              <Card className="bg-blue-50">
                 <CardContent className="p-6">
-                  <h3 className="font-bold text-xl mb-2 text-foreground transition-colors duration-300">Languages</h3>
-                  <p className="text-muted-foreground transition-colors duration-300">Python, JavaScript, TypeScript, Java, C/C++, SQL</p>
+                  <h3 className="font-bold text-xl mb-2 text-portfolio-secondary">Languages</h3>
+                  <p className="text-gray-700">Python, JavaScript, TypeScript, Java, C/C++, SQL</p>
                 </CardContent>
               </Card>
               
-              <Card className="bg-purple-50 dark:bg-purple-950/20 transition-colors duration-300">
+              <Card className="bg-purple-50">
                 <CardContent className="p-6">
-                  <h3 className="font-bold text-xl mb-2 text-foreground transition-colors duration-300">Frameworks</h3>
-                  <p className="text-muted-foreground transition-colors duration-300">React, Node.js, Express, Flask, Django, TensorFlow, PyTorch</p>
+                  <h3 className="font-bold text-xl mb-2 text-portfolio-secondary">Frameworks</h3>
+                  <p className="text-gray-700">React, Node.js, Express, Flask, Django, TensorFlow, PyTorch</p>
                 </CardContent>
               </Card>
               
-              <Card className="bg-green-50 dark:bg-green-950/20 transition-colors duration-300">
+              <Card className="bg-green-50">
                 <CardContent className="p-6">
-                  <h3 className="font-bold text-xl mb-2 text-foreground transition-colors duration-300">Tools & Platforms</h3>
-                  <p className="text-muted-foreground transition-colors duration-300">Git, Docker, AWS, GCP, MongoDB, MySQL, PostgreSQL</p>
+                  <h3 className="font-bold text-xl mb-2 text-portfolio-secondary">Tools & Platforms</h3>
+                  <p className="text-gray-700">Git, Docker, AWS, GCP, MongoDB, MySQL, PostgreSQL</p>
                 </CardContent>
               </Card>
             </div>
@@ -185,13 +157,13 @@ const Index = () => {
         </section>
         
         {/* Contact CTA */}
-        <section className="py-16 bg-gradient-to-r from-primary to-accent text-primary-foreground transition-colors duration-300">
+        <section className="py-16 bg-gradient-to-r from-portfolio-primary to-portfolio-accent text-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 className="text-3xl font-bold mb-4">Let's Work Together</h2>
             <p className="text-xl mb-8 max-w-2xl mx-auto">
               I'm always open to discussing new projects, creative ideas or opportunities to be part of your vision.
             </p>
-            <Button asChild size="lg" variant="secondary" className="bg-background text-foreground hover:bg-muted">
+            <Button asChild size="lg" variant="secondary" className="bg-white text-portfolio-primary hover:bg-gray-100">
               <Link to="/contact">Get in Touch</Link>
             </Button>
           </div>

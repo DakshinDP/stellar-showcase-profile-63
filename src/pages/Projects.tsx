@@ -1,8 +1,8 @@
+
 import { useEffect } from "react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import ProjectCard, { ProjectCardProps } from "@/components/ProjectCard";
-import ThemeToggle from "@/components/ThemeToggle";
 
 // Define all projects
 const allProjects: ProjectCardProps[] = [
@@ -99,20 +99,15 @@ const Projects = () => {
   }, []);
 
   return (
-    <div className="min-h-screen flex flex-col bg-background text-foreground transition-colors duration-300">
-      <div className="relative">
-        <Navbar />
-        <div className="absolute top-4 right-4 z-50">
-          <ThemeToggle />
-        </div>
-      </div>
+    <div className="min-h-screen flex flex-col">
+      <Navbar />
       
       <main className="flex-grow">
         {/* Projects Hero */}
-        <section className="bg-muted py-16">
+        <section className="bg-portfolio-muted py-16">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h1 className="text-4xl font-bold text-center text-foreground">My Projects</h1>
-            <p className="mt-4 text-xl text-center text-muted-foreground max-w-3xl mx-auto">
+            <h1 className="text-4xl font-bold text-center text-portfolio-secondary">My Projects</h1>
+            <p className="mt-4 text-xl text-center text-gray-600 max-w-3xl mx-auto">
               A collection of my work showcasing my skills in software development, machine learning, and AI technologies.
             </p>
           </div>
@@ -130,18 +125,18 @@ const Projects = () => {
         </section>
         
         {/* Other Project Types */}
-        <section className="py-16 bg-muted">
+        <section className="py-16 bg-gray-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 className="text-3xl font-bold text-center text-foreground mb-8">More Work</h2>
+            <h2 className="text-3xl font-bold text-center text-portfolio-secondary mb-8">More Work</h2>
             
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               {/* Open Source Contributions */}
-              <div className="bg-card p-8 rounded-lg shadow-sm border border-border">
-                <h3 className="text-2xl font-bold text-foreground mb-4">Open Source Contributions</h3>
-                <p className="text-muted-foreground mb-6">
+              <div className="bg-white p-8 rounded-lg shadow-sm border border-gray-100">
+                <h3 className="text-2xl font-bold text-portfolio-secondary mb-4">Open Source Contributions</h3>
+                <p className="text-gray-700 mb-6">
                   I actively contribute to open source projects to collaborate with the community and improve my skills.
                 </p>
-                <ul className="list-disc list-inside text-muted-foreground space-y-2">
+                <ul className="list-disc list-inside text-gray-700 space-y-2">
                   <li>Contributed to TensorFlow documentation</li>
                   <li>Fixed bugs in React library components</li>
                   <li>Added features to data visualization tools</li>
@@ -159,12 +154,12 @@ const Projects = () => {
               </div>
               
               {/* Academic Projects */}
-              <div className="bg-card p-8 rounded-lg shadow-sm border border-border">
-                <h3 className="text-2xl font-bold text-foreground mb-4">Academic Projects</h3>
-                <p className="text-muted-foreground mb-6">
+              <div className="bg-white p-8 rounded-lg shadow-sm border border-gray-100">
+                <h3 className="text-2xl font-bold text-portfolio-secondary mb-4">Academic Projects</h3>
+                <p className="text-gray-700 mb-6">
                   Projects completed as part of my academic coursework, showcasing fundamental skills and knowledge.
                 </p>
-                <ul className="list-disc list-inside text-muted-foreground space-y-2">
+                <ul className="list-disc list-inside text-gray-700 space-y-2">
                   <li>
                     <span className="font-medium">Data Structures Visualization:</span>
                     {" "}Interactive visualization of common data structures and algorithms
