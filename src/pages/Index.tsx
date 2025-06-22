@@ -1,4 +1,3 @@
-
 import { useEffect } from "react";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
@@ -8,6 +7,7 @@ import Footer from "@/components/Footer";
 import HeroSection from "@/components/HeroSection";
 import ProjectCard from "@/components/ProjectCard";
 import SkillBadge from "@/components/SkillBadge";
+import ThemeToggle from "@/components/ThemeToggle";
 
 const featuredProjects = [
   {
@@ -52,25 +52,30 @@ const Index = () => {
   }, []);
 
   return (
-    <div className="min-h-screen flex flex-col">
-      <Navbar />
+    <div className="min-h-screen flex flex-col bg-background text-foreground transition-colors duration-300">
+      <div className="relative">
+        <Navbar />
+        <div className="absolute top-4 right-4 z-50">
+          <ThemeToggle />
+        </div>
+      </div>
       
       <main className="flex-grow">
         {/* Hero Section */}
         <HeroSection />
         
         {/* About Section Preview */}
-        <section className="py-16 bg-white">
+        <section className="py-16 bg-background">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-12">
-              <h2 className="text-3xl font-bold text-portfolio-secondary mb-4">About Me</h2>
-              <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+              <h2 className="text-3xl font-bold text-foreground mb-4">About Me</h2>
+              <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
                 I'm a software developer and machine learning engineer passionate about creating impactful solutions.
               </p>
             </div>
             
-            <div className="bg-portfolio-muted rounded-xl p-8 shadow-sm">
-              <p className="text-gray-700 mb-6">
+            <div className="bg-muted rounded-xl p-8 shadow-sm">
+              <p className="text-muted-foreground mb-6">
                 I specialize in developing AI-powered applications and data science solutions with expertise in machine learning and software development. 
                 My background in Computer Science coupled with hands-on experience in various projects has equipped me with the skills to tackle complex problems
                 and create innovative solutions.
@@ -86,11 +91,11 @@ const Index = () => {
         </section>
         
         {/* Featured Projects Section */}
-        <section className="py-16 bg-gray-50">
+        <section className="py-16 bg-muted">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-12">
-              <h2 className="text-3xl font-bold text-portfolio-secondary mb-4">Featured Projects</h2>
-              <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+              <h2 className="text-3xl font-bold text-foreground mb-4">Featured Projects</h2>
+              <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
                 Here are some of my recent projects that showcase my skills and expertise.
               </p>
             </div>
@@ -110,11 +115,11 @@ const Index = () => {
         </section>
         
         {/* Skills Preview Section */}
-        <section className="py-16 bg-white">
+        <section className="py-16 bg-background">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-12">
-              <h2 className="text-3xl font-bold text-portfolio-secondary mb-4">My Skills</h2>
-              <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+              <h2 className="text-3xl font-bold text-foreground mb-4">My Skills</h2>
+              <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
                 A glimpse of my technical expertise and core competencies.
               </p>
             </div>
@@ -126,24 +131,24 @@ const Index = () => {
             </div>
             
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-12">
-              <Card className="bg-blue-50">
+              <Card className="bg-blue-50 dark:bg-blue-950/20">
                 <CardContent className="p-6">
-                  <h3 className="font-bold text-xl mb-2 text-portfolio-secondary">Languages</h3>
-                  <p className="text-gray-700">Python, JavaScript, TypeScript, Java, C/C++, SQL</p>
+                  <h3 className="font-bold text-xl mb-2 text-foreground">Languages</h3>
+                  <p className="text-muted-foreground">Python, JavaScript, TypeScript, Java, C/C++, SQL</p>
                 </CardContent>
               </Card>
               
-              <Card className="bg-purple-50">
+              <Card className="bg-purple-50 dark:bg-purple-950/20">
                 <CardContent className="p-6">
-                  <h3 className="font-bold text-xl mb-2 text-portfolio-secondary">Frameworks</h3>
-                  <p className="text-gray-700">React, Node.js, Express, Flask, Django, TensorFlow, PyTorch</p>
+                  <h3 className="font-bold text-xl mb-2 text-foreground">Frameworks</h3>
+                  <p className="text-muted-foreground">React, Node.js, Express, Flask, Django, TensorFlow, PyTorch</p>
                 </CardContent>
               </Card>
               
-              <Card className="bg-green-50">
+              <Card className="bg-green-50 dark:bg-green-950/20">
                 <CardContent className="p-6">
-                  <h3 className="font-bold text-xl mb-2 text-portfolio-secondary">Tools & Platforms</h3>
-                  <p className="text-gray-700">Git, Docker, AWS, GCP, MongoDB, MySQL, PostgreSQL</p>
+                  <h3 className="font-bold text-xl mb-2 text-foreground">Tools & Platforms</h3>
+                  <p className="text-muted-foreground">Git, Docker, AWS, GCP, MongoDB, MySQL, PostgreSQL</p>
                 </CardContent>
               </Card>
             </div>
