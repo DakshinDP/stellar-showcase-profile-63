@@ -51,7 +51,7 @@ const HeroSection = () => {
             <img 
               src="/IMG_42461.JPG" 
               alt="Dakshina Prasath M" 
-              className="max-h-[70vh] w-auto object-contain border border-black"
+              className="max-h-[85vh] w-auto object-contain border border-black"
               style={{ alignSelf: 'flex-end' }}
             />
           </div>
