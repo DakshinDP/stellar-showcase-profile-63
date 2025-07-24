@@ -25,13 +25,13 @@ const HeroSection = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="lg:grid lg:grid-cols-2 lg:gap-16 items-center">
           <div className="mb-10 lg:mb-0 animate-fade-in">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-portfolio-secondary leading-tight">
+            <h1 className="text-6xl md:text-7xl lg:text-8xl font-bold mb-6 text-portfolio-secondary leading-tight">
               Hi, I'm <span className="text-gradient">Dakshina Prasath M</span>
             </h1>
-            <p className="text-xl md:text-2xl mb-8 text-gray-700">
+            <p className="text-3xl md:text-4xl mb-8 text-gray-700">
               Software Developer & Machine Learning Engineer
             </p>
-            <p className="text-gray-600 mb-8 text-lg max-w-xl">
+            <p className="text-gray-600 mb-8 text-2xl max-w-xl">
               I specialize in developing AI-powered applications and data science solutions. 
               With expertise in machine learning and web development, I create impactful technologies 
               that solve real-world problems.
