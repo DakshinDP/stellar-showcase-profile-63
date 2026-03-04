@@ -42,6 +42,9 @@ const HeroSection = () => {
               </Button>
               <a className="libutton" href="https://www.linkedin.com/comm/mynetwork/discovery-see-all?usecase=PEOPLE_FOLLOWS&followMember=dakshina-prasath" target="_blank">Follow on LinkedIn</a>
               <Button asChild variant="outline" size="lg" className="text-lg">
+                <a className="libutton" href="https://instagram.com/dakshin__dp" target="_blank">
+                  Follow on Instagram
+                </a>
                 <Link to="/contact">Contact Me</Link>
               </Button>
             </div>
